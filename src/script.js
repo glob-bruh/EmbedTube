@@ -1,4 +1,8 @@
 
+// *************
+// * EmbedTube *
+// *************
+
 function waitElement(elementId, callBack) {
   window.setTimeout(function(){
     var element = document.getElementById(elementId);

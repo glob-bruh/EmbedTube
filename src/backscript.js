@@ -1,7 +1,7 @@
 
-// ********************************
+// *************
 // * EmbedTube *
-// ********************************
+// *************
 
 function waitForElement(elementId, callBack){
   window.setTimeout(function(){
