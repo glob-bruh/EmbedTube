@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "EmbedTube",
+	"version": "1.0",
+	"description": "Replaces the YouTube video player with embedded versions.",
+	"icons": {
+		"50": "icons/50.png"
+	},
+	"content_scripts": [{
+		"matches": ["*://*.youtube.com/*"],
+		"js": ["script.js"]
+	}],
+	"browser_action": {
+		"default_icon": {
+			"50": "icons/50.png"
+		},
+		"default_title": "EmbedTube Options",
+		"default_popup": "popup.html"
+	}
+}
